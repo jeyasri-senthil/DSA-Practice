@@ -1,5 +1,10 @@
 // Problem Link: https://www.codingninjas.com/studio/problems/seeding_6581892
 
+// Pattern Output
+* * *
+* *
+*
+
 public class SeedingPattern {
     public static void seeding(int n) {
         // Write your code here
