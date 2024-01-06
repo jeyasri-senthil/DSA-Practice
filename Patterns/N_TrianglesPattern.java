@@ -1,5 +1,10 @@
 // Problem Link: https://www.codingninjas.com/studio/problems/n-triangles_6573689
 
+// Pattern Output
+1
+1 2 
+1 2 3
+
 public class N_TrianglesPattern {
     public static void nTriangle(int n) {
         // Write your code here
