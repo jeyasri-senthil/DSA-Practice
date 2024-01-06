@@ -1,5 +1,10 @@
 // Problem Link: https://www.codingninjas.com/studio/problems/n-2-forest_6570178
 
+// Pattern Output
+* 
+* *
+* * *
+       
 public class RightTrianglePattern {
     public static void nForest(int n) {
         // Write your code here
