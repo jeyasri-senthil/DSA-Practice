@@ -1,6 +1,6 @@
 // Problem Link: https://leetcode.com/problems/missing-number/description/
 
-//Brute-Force Solution
+// Brute-Force Solution
 class MissingElement {
     public int missingNumber(int[] nums) {
         for(int i=0; i<=nums.length; i++){
