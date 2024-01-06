@@ -18,7 +18,7 @@ public class SingleElement {
 }
 
 // Optimal Solution
-public class Solution {
+public class SingleElement {
     public static int getSingleElement(int []arr){
         // Write your code here.
         int XOR = 0;
