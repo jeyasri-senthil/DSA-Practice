@@ -16,3 +16,35 @@ class MissingElement {
         return -1;
     }
 }
+
+// Optimal Solution 1
+class MissingElement {
+    public int missingNumber(int[] nums) {
+        int sum = 0;
+        for(int i=0; i<=nums.length; i++){
+            sum += i;
+        }
+        int arrSum = 0;
+        for(int i=0; i<nums.length; i++){
+            arrSum += nums[i];
+        }
+        int result = sum - arrSum;
+        return result;
+    }
+}
+
+// Optimal Solution 2
+class MissingElement {
+    public int missingNumber(int[] nums) {
+        int XOR1 = 0;
+        for(int i=0; i<=nums.length; i++){
+            XOR1 = XOR1^i;
+        }
+        int XOR2 = 0;
+        for(int i=0; i<nums.length; i++){
+            XOR2 ^= nums[i];
+        }
+        int result = XOR1^XOR2;
+        return result;
+    }
+}
