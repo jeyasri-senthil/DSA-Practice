@@ -2,7 +2,7 @@
 
 *Welcome to my Strivers A-Z DSA Challenge repository! Over the next 100 days, I'll tackle the Strivers A-Z DSA sheet and solve 3-5 problems daily to enhance my coding skills. This challenge aims to delve deep into data structures and algorithms while maintaining consistency in practice. Starting from January 1, 2024, each day's progress will be documented here, providing problem solutions and approaches (At a maximum, the optimal code will be uploaded). You can explore specific days' solutions in dedicated folders. Your feedback and suggestions are most welcome as I embark on this coding journey! Happy Coding!* ✨
 
-*To further my practice, I'll also be actively working on [LEETCODE](https://leetcode.com/jeyasri-senthil/) and [CODING NINJAS](https://www.codingninjas.com/studio/profile/jeyasri_s), solving additional problems to complement this challenge. Join me in this challenge to strengthen our coding skills! #100DaysOfCoding*
+*To further my practice, I'll also be actively working on [LEETCODE](https://leetcode.com/jeyasri-senthil/) and [CODING NINJAS](https://www.codingninjas.com/studio/profile/jeyasri_s), solving additional problems to complement this challenge. Join me in this challenge to strengthen our coding skills! #StriversA2ZDSA #100DaysOfCoding*
 <br><br>
 <p align="center">
   <img src="https://github.com/jeyasri-senthil/100-Days-of-Coding/assets/108861190/b29c249c-8628-4b2d-924e-bee20febea9b" width="500" height="200">
