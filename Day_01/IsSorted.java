@@ -1,4 +1,4 @@
-// Problem Link: https://www.codingninjas.com/studio/problems/ninja-and-the-sorted-check_6581957
+// Problem Link: https://www.codingninjas.com/studio/problems/ninja-and-the-sorted-check_6581957  
 
 public class IsSorted {
     public static int isSorted(int n, int []a) {
