@@ -1,6 +1,6 @@
 // Problem Link: https://www.codingninjas.com/studio/problems/ninja-and-the-zero-s_6581958
 
-// Brute-Force
+// Brute-Force Solution
 import java.util.*;
 public class MoveZeros {
         public static int[] moveZeros(int n, int []a) {
