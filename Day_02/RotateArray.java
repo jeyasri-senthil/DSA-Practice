@@ -1,6 +1,6 @@
 // Problem Link: https://www.codingninjas.com/studio/problems/rotate-array_1230543
 
-import java.util.ArrayList;
+import java.util.*;
 public class RotateArray {
 	public static ArrayList<Integer> rotateArray(ArrayList<Integer> arr, int k) {
         // Write your code here.
