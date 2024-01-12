@@ -1,8 +1,9 @@
 // Problem Link: https://www.codingninjas.com/studio/problems/maximum-subarray-sum_630526
 
+// Kadane's algorithm
 public class MaxSubarraySum {
 	public static long maxSubarraySum(int[] arr, int n) {
-		// write your code here
+		//Write your code here
 		long sum = 0, max = Long.MIN_VALUE;
 		for(int i=0; i<n; i++){
 			sum += arr[i];
