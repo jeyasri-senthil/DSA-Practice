@@ -2,8 +2,8 @@
 // Problem Link: https://leetcode.com/problems/sort-colors/description/
 
 // Brute-Force Solution: Merge Sort
-// Better Solution
 
+// Better Solution
 import java.util.* ;
 import java.io.*; 
 public class Solution {
@@ -23,7 +23,7 @@ public class Solution {
 }
 
 // Optimal Solution
-
+// Dutch National Flag algorithm
 import java.util.* ;
 import java.io.*; 
 public class Solution {
