@@ -13,8 +13,6 @@ class Solution {
         }
         for(int i=0; i<n/2; i++){
             nums[2*i] = posArr[i];
-        }
-        for(int i=0; i<n/2; i++){
             nums[2*i+1] = negArr[i];
         }
         return nums;
