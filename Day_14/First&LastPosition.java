@@ -21,9 +21,9 @@ import java.util.*;
 public class Solution {
     public static int[] firstAndLastPosition(ArrayList<Integer> nums, int n, int target) {
         // Write your code here.
-        return new int[]{firstOccurence(nums, n, target), lastOccurence(nums, n, target)};
+        return new int[]{firstOccurrence(nums, n, target), lastOccurrence(nums, n, target)};
     }
-    public static int firstOccurence(ArrayList<Integer> nums, int n, int target) {
+    public static int firstOccurrence(ArrayList<Integer> nums, int n, int target) {
         int first = -1, low = 0, high = n-1;
         while(low <= high) {
             int mid = (low + high) / 2;
@@ -36,7 +36,7 @@ public class Solution {
             }
         return first;
     }
-    public static int lastOccurence(ArrayList<Integer> nums, int n, int target) {
+    public static int lastOccurrence(ArrayList<Integer> nums, int n, int target) {
         int last = -1, low = 0, high = n-1;
         while(low <= high) {
             int mid = (low + high) / 2;
@@ -70,9 +70,9 @@ class Solution {
 // Optimal Solution
 class Solution {
     public int[] searchRange(int[] nums, int target) {
-        return new int[]{firstOccurence(nums, target), lastOccurence(nums, target)};
+        return new int[]{firstOccurrence(nums, target), lastOccurrence(nums, target)};
     }
-    public static int firstOccurence(int[] nums, int target) {
+    public static int firstOccurrence(int[] nums, int target) {
         int first = -1, low = 0, high = nums.length-1;
         while(low <= high) {
             int mid = (low + high) / 2;
@@ -85,7 +85,7 @@ class Solution {
             }
         return first;
     }
-    public static int lastOccurence(int[] nums, int target) {
+    public static int lastOccurrence(int[] nums, int target) {
         int last = -1, low = 0, high = nums.length-1;
         while(low <= high) {
             int mid = (low + high) / 2;
