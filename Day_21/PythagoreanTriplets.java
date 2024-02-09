@@ -13,3 +13,24 @@ public class Solution {
         return count;
     }
 }
+
+// Problem Link: https://www.codingninjas.com/studio/problems/pythagorean-triplets_797917
+
+import java.util.* ;
+import java.io.*; 
+public class Solution {
+    public static boolean check(int[] arr) {
+        // Write your code here
+        ArrayList<Integer> list = new ArrayList<>();
+        for(int iterator : arr) list.add(iterator);
+        int n = list.size();
+        for(int i=0; i<n; i++) {
+            for(int j=i; j<n; j++) {
+                int c_square = list.get(i)*list.get(i) + list.get(j)*list.get(j);
+                int c = (int)Math.sqrt(c_square);
+                if(c*c == c_square && list.contains(c)) return true;
+            }
+        }
+        return false;
+    }
+}
