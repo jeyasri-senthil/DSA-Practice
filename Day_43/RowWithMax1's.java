@@ -6,7 +6,7 @@ class Solution {
     int rowWithMax1s(int arr[][], int n, int m) {
         int maxCount = -1, index = -1;
         for(int i=0; i<n; i++) {
-            int cnt = 0;
+            int cnt = -1;
             for(int j=0; j<m; j++) cnt += arr[i][j];
             if(cnt > maxCount) {
                 maxCount = cnt;
